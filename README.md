@@ -17,7 +17,7 @@ You must have the following binaries already installed on your machine:
 Add the following line to your fish config file (`~/.config/fish/config.fish`)
 
 ```fish
-fundle plugin 'james2doyle/omf-plugin-fnm'
+fundle plugin 'joshmedeski/fish-lf-icons'
 ```
 
 **Note:** this must go before `fundle init` (see [fundle](https://github.com/danhper/fundle) for more info)
