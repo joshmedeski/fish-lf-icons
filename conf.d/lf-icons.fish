@@ -161,6 +161,7 @@ set -Ux LF_ICONS "\
 *.zsh=:\
 *.zst=:\
 *package.json=:\
+*yarn.lock=:\
 di=:\
 dt=:\
 ex=:\
