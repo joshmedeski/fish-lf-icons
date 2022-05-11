@@ -1,5 +1,7 @@
 # Fish lf Icons
 
+![fish lf icons screenshot](./fish-lf-icons-screenshot.png)
+
 A [fish](https://fishshell.com) plugin that adds Nerd Font icons to the [lf](https://github.com/gokcehan/lf) terminal file manager
 
 ## Prerequisites
