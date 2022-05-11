@@ -1,6 +1,5 @@
 set -Ux LF_ICONS "\
 *.7z=:\
-*.DS_Store=:\
 *.aac=:\
 *.ace=:\
 *.alz=:\
@@ -11,6 +10,7 @@ set -Ux LF_ICONS "\
 *.au=:\
 *.avi=:\
 *.bash=:\
+*.bash_history=:\
 *.bashprofile=:\
 *.bashrc=:\
 *.bmp=:\
@@ -19,6 +19,7 @@ set -Ux LF_ICONS "\
 *.c=:\
 *.cab=:\
 *.cc=:\
+*.cfg=:\
 *.cgm=:\
 *.clang-format=:\
 *.clj=:\
@@ -31,6 +32,7 @@ set -Ux LF_ICONS "\
 *.dart=:\
 *.deb=:\
 *.dl=:\
+*.DS_Store=:\
 *.dwm=:\
 *.dz=:\
 *.ear=:\
@@ -63,6 +65,7 @@ set -Ux LF_ICONS "\
 *.hpp=:\
 *.hs=:\
 *.html=:\
+*.hyper.js=:\
 *.jar=:\
 *.java=:\
 *.jl=:\
@@ -82,6 +85,7 @@ set -Ux LF_ICONS "\
 *.m2v=:\
 *.m4a=:\
 *.m4v=:\
+*.map=:\
 *.md=:\
 *.mdx=:\
 *.mid=:\
@@ -100,6 +104,7 @@ set -Ux LF_ICONS "\
 *.mpg=:\
 *.nix=:\
 *.npmignore=:\
+*.npmrc=:\
 *.nuv=:\
 *.nvmrc=:\
 *.oga=:\
@@ -132,6 +137,7 @@ set -Ux LF_ICONS "\
 *.sar=:\
 *.scala=:\
 *.sh=:\
+*.skhdrc=:\
 *.sol=ﲹ:\
 *.spx=:\
 *.svg=:\
@@ -147,6 +153,7 @@ set -Ux LF_ICONS "\
 *.tif=:\
 *.tiff=:\
 *.tlz=:\
+*.tmux.conf=:\
 *.trash=:\
 *.ts=:\
 *.tsx=:\
@@ -168,13 +175,19 @@ set -Ux LF_ICONS "\
 *.xspf=:\
 *.xwd=:\
 *.xz=:\
+*.yabairc=:\
 *.yaml=פּ:\
+*.yarn-integrity=:\
+*.yarnrc=:\
 *.yml=פּ:\
 *.yuv=:\
 *.z=:\
 *.zip=:\
 *.zoo=:\
+*.zprofile=:\
+*.zprofile=:\
 *.zsh=:\
+*.zsh_history=:\
 *.zshrc=:\
 *.zst=:\
 *bin=:\
@@ -194,6 +207,7 @@ set -Ux LF_ICONS "\
 *node_modules=:\
 *package.json=:\
 *rubydoc=:\
+*tsconfig.json=:\
 *yarn.lock=:\
 di=:\
 dt=:\
