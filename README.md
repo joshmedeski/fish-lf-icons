@@ -8,49 +8,50 @@ A [fish](https://fishshell.com) plugin that adds Nerd Font icons to the [lf](htt
 
 You must have the following binaries already installed on your machine:
 
-- [fish shell](https://fishshell.com)
-- [fundle package manager](https://github.com/danhper/fundle)
-- [lf terminal file manager](https://github.com/gokcehan/lf)
+- [fish](https://fishshell.com) shell
+- [fisher](https://github.com/jorgebucaran/fisher) package manager
+- [lf](https://github.com/gokcehan/lf) terminal file manager
 
 ## How to install
 
-Add the following line to your fish config file (`~/.config/fish/config.fish`)
+Run the following command to install the plugin:
 
 ```fish
-fundle plugin 'joshmedeski/fish-lf-icons'
+fisher install joshmedeski/fish-lf-icons
 ```
 
-Then, make sure to enable icons by adding the following line to your `~/.config/lf/lfrc` config file.
+Then, make sure to **enable icons in lf** by adding the following line to your `~/.config/lf/lfrc` config file.
 
 ```
 set icons
 ```
 
-**Note:** this must go before `fundle init` (see [fundle](https://github.com/danhper/fundle) for more info)
-
 ## How to update
 
-To update this plugin, run the following command
+To update this plugin, run the following command:
 
 ```fish
-fundle update joshmedeski/fish-lf-icons
+fisher update joshmedeski/fish-lf-icons
 ```
-
-**Note:** you can run `fundle update` to update all your packages at once.
 
 ## How to remove / uninstall
 
 To uninstall this package, remove the line from the "How to install" section and run the following command
 
 ```fish
-fundle clean
+fisher uninstall joshmedeski/fish-lf-icons
 ```
 
 ## How to contribute
 
 To contribute, simply fork and clone this repo, make the changes you want, then open a pull request!
 
+## Alternative plugin managers
+
+[fisher](https://github.com/jorgebucaran/fisher) and [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) are also supported. However, I prefer fisher. See [How does Fisher compare to Oh My Fish and Fundle?](https://github.com/jorgebucaran/fisher/issues/481) for more.
+
 ## Thanks
 
-- [lsd](https://github.com/Peltoche/lsd) has great Nerd Font file icon support
-- [lf](https://github.com/gokcehan/lf) has some good examples of how to Nerd Font add icon support
+- [lf](https://github.com/gokcehan/lf) for being an amazing tool! Icon support is just icing on the cake ;)
+- [fisher](https://github.com/jorgebucaran/fisher) for making it easy to create a fish plugin and share it wit the world.
+- [lsd](https://github.com/Peltoche/lsd) for great Nerd Font support that helped make this plugin better.
