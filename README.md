@@ -20,7 +20,7 @@ Add the following line to your fish config file (`~/.config/fish/config.fish`)
 fundle plugin 'joshmedeski/fish-lf-icons'
 ```
 
-Then, make sure to enable icons in your `~/.config/lf/lfrc` config file.
+Then, make sure to enable icons by adding the following line to your `~/.config/lf/lfrc` config file.
 
 ```
 set icons
