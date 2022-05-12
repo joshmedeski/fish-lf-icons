@@ -52,6 +52,7 @@ To contribute, simply fork and clone this repo, make the changes you want, then 
 
 ## Thanks
 
-- [lf](https://github.com/gokcehan/lf) for being an amazing tool! Icon support is just icing on the cake ;)
-- [fisher](https://github.com/jorgebucaran/fisher) for making it easy to create a fish plugin and share it wit the world.
+- [lf](https://github.com/gokcehan/lf) for being an amazing tool! Icon support is just icing on the cake 🍰
+- [Nerd Font](https://www.nerdfonts.com) for making the terminal cooler 😎
+- [fisher](https://github.com/jorgebucaran/fisher) for making it easy to create a fish plugin and share it wit the world 🌐
 - [lsd](https://github.com/Peltoche/lsd) for great Nerd Font support that helped make this plugin better.
